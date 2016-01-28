@@ -50,8 +50,8 @@ def extract(filename):
     print data_folders
     return data_folders
 
-# train_folders = extract(train_filename)
-# test_folders = extract(test_filename)
+train_folders = extract(train_filename)
+test_folders = extract(test_filename)
 #
 # print 'done'
 image_size = 28  # Pixel width and height.
