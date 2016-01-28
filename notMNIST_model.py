@@ -84,7 +84,7 @@ with graph.as_default():
 
     # Optimizer.
     global_step = tf.Variable(0)  # count the number of steps taken.
-    learning_rate = tf.train.exponential_decay(0.5, step, len(train_dataset), .95)
+    learning_rate = tf.train.exponential_decay(0.5, global_step, len(train_dataset), .95)
     optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss, global_step=global_step)
     #optimizer = tf.train.GradientDescentOptimizer(0.5).minimize(loss)
 
