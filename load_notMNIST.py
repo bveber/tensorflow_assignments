@@ -132,5 +132,5 @@ except Exception as e:
   print 'Unable to save data to', pickle_file, ':', e
   raise
 
- statinfo = os.stat(pickle_file)
+statinfo = os.stat(pickle_file)
 print 'Compressed pickle size:', statinfo.st_size
