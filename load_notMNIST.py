@@ -25,8 +25,8 @@ def maybe_download(filename, expected_bytes):
                     'Failed to verify' + filename + '. Can you get to it with a browser?')
     return filename
 
-train_filename = maybe_download('notMNIST_large.tar.gz', 247336696)
-test_filename = maybe_download('notMNIST_small.tar.gz', 8458043)
+# train_filename = maybe_download('notMNIST_large.tar.gz', 247336696)
+# test_filename = maybe_download('notMNIST_small.tar.gz', 8458043)
 #
 # print 'done'
 
