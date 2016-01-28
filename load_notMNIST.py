@@ -1,6 +1,5 @@
 # These are all the modules we'll be using later. Make sure you can import them
 # before proceeding further.
-import matplotlib.pyplot as plt
 import numpy as np
 import os
 import tarfile
