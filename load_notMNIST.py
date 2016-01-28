@@ -49,7 +49,8 @@ def extract(filename):
                         (num_folders, len(data_folders)))
     print data_folders
     return data_folders
-
+train_filename = 'notMNIST_large.tar.gz'
+test_filename = 'notMNIST_small.tar.gz'
 train_folders = extract(train_filename)
 test_folders = extract(test_filename)
 #
