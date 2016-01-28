@@ -102,7 +102,7 @@ with graph.as_default():
     tf.matmul(test_layer_3, weights['out']) + biases['out'])
 
 
-num_steps = 3001
+num_steps = 10001
 t0 = time.time()
 
 with tf.Session(graph=graph) as session:
